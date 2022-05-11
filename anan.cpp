@@ -110,7 +110,27 @@ int main()
 	daire d1;
 	d1.setodasayisi(3);
 	d1.setmetrekare(100);
+    d1.yazdir();
 	cout<<"kira"<<d1.kirahesapla()<<endl;
 	
+    apartman a1;
+    a1.setodasayisi(3);
+    a1.setmetrekare(100);
+    a1.setkatsayisi(4);
+    a1.setkattakidairesayisi(2);
+    a1.yazdir();
+    cout<<"kira"<<a1.kirahesapla()<<endl;
+    
+
+    site s1;
+    s1.setsiteadi("Merhaba");
+    s1.setbinasayisi(5);
+    s1.setodasayisi(3);
+    s1.setmetrekare(100);
+    s1.setkatsayisi(4);
+    s1.setkattakidairesayisi(2);
+    s1.yazdir();
+    cout<<"kira"<<s1.kirahesapla()<<endl;
+
 	return 0;
 }
